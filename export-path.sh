@@ -1,0 +1,1 @@
+$ export PATH="$PATH:/YOUR_LOCAL_PATH_TO_BINARIES/confluent-5.0.0/bin"

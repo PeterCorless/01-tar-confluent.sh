@@ -1,0 +1,1 @@
+$bin/kafka-mqtt-start kafka-mqtt-dev.properties

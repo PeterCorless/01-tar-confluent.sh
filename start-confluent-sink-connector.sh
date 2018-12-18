@@ -1,0 +1,1 @@
+$java -jar kafka-connect-cli-0.6-all.jar create cassandra-sink < cassandra-sink.properties

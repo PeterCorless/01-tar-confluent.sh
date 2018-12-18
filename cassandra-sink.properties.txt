@@ -1,0 +1,13 @@
+#Connector `cassandra-sink`:
+name=cassandra-sink
+connector.class=com.datamountaineer.streamreactor.connect.cassandra.sink.CassandraSinkConnector
+tasks.max=1
+topics=temperature
+connect.cassandra.kcql=INSERT INTO temperature SELECT * FROM temperature
+connect.cassandra.contact.points=<IP1>,<IP2> (public IP addresses SCYLLA nodes)
+connect.cassandra.port=9042
+connect.cassandra.key.space=demo
+connect.cassandra.username=cassandra
+connect.cassandra.password=cassandra
+connect.progress.enabled=true
+#task ids: 0
